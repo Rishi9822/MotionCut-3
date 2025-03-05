@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Wireless Headphones - SoundStore</title>
+    <link rel="stylesheet" href="style/PC.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">SoundStore</a>
+                </div>
+                
+                <nav class="desktop-nav">
+                    <ul>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="categories.html">Categories</a></li>
+                        <li><a href="deals.html">Deals</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="header-icons">
+                    <a href="#" class="icon-link">
+                        <i class="fas fa-search"></i>
+                    </a>
+                    <a href="#" class="icon-link cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">3</span>
+                    </a>
+                    <a href="#" class="icon-link">
+                        <i class="fas fa-user"></i>
+                    </a>
+                </div>
+                
+                <button class="mobile-menu-btn" id="mobileMenuBtn" title="H">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            
+            <!-- Mobile Navigation -->
+            <nav class="mobile-nav" id="mobileNav">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="deals.html">Deals</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="mobile-icons">
+                    <a href="#" class="mobile-icon-link">
+                        <i class="fas fa-search"></i>
+                        <span>Search</span>
+                    </a>
+                    <a href="#" class="mobile-icon-link">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>Cart</span>
+                        <span class="cart-count">3</span>
+                    </a>
+                    <a href="#" class="mobile-icon-link">
+                        <i class="fas fa-user"></i>
+                        <span>Account</span>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Breadcrumb -->
+        <div class="breadcrumb">
+            <a href="index.html">Home</a> &gt;
+            <a href="shop.html">Shop</a> &gt;
+            <a href="audio.html">Audio</a> &gt;
+            <span>Premium Wireless Headphones</span>
+        </div>
+
+        <!-- Product Details -->
+        <section class="product-details">
+            <!-- Product Images -->
+            <div class="product-images">
+                <div class="main-image-container">
+                    <img src="img/1.jpg" alt="Premium Wireless Headphones" id="mainImage" class="main-image">
+                    <button class="image-nav prev-image" id="prevImage" title="H">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="image-nav next-image" id="nextImage" title="H">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                <div class="thumbnail-container">
+                    <div class="thumbnail active" data-index="0">
+                        <img src="img/1.jpg" alt="Headphones thumbnail 1">
+                    </div>
+                    <div class="thumbnail" data-index="1">
+                        <img src="img/2.jpg" alt="Headphones thumbnail 2">
+                    </div>
+                    <div class="thumbnail" data-index="2">
+                        <img src="img/3.jpg" alt="Headphones thumbnail 3">
+                    </div>
+                    <div class="thumbnail" data-index="3">
+                        <img src="img/4.jpg" alt="Headphones thumbnail 4">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Info -->
+            <div class="product-info">
+                <h1 class="product-title">Premium Wireless Headphones</h1>
+                
+                <div class="product-rating">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>4.8 (124 reviews)</span>
+                </div>
+                
+                <div class="product-price">
+                    <span class="current-price">Rs 199.99</span>
+                    <span class="original-price">Rs 249.99</span>
+                    <span class="discount-badge">Save Rs 50.00</span>
+                </div>
+                
+                <p class="product-description">
+                    Experience crystal-clear sound with our premium wireless headphones. Featuring active noise cancellation, 30-hour battery life, and ultra-comfortable ear cushions for extended listening sessions. Connect seamlessly via Bluetooth 5.0 with any device.
+                </p>
+                
+                <div class="product-options">
+                    <div class="color-options">
+                        <h3>Color</h3>
+                        <div class="color-selector">
+                            <div class="color-option">
+                                <input type="radio" id="color-black" name="color" value="Black" checked>
+                                <label for="color-black">
+                                    <span class="color-circle black"></span>
+                                    <span class="color-name">Black</span>
+                                </label>
+                            </div>
+                            <div class="color-option">
+                                <input type="radio" id="color-white" name="color" value="White">
+                                <label for="color-white">
+                                    <span class="color-circle white"></span>
+                                    <span class="color-name">White</span>
+                                </label>
+                            </div>
+                            <div class="color-option">
+                                <input type="radio" id="color-blue" name="color" value="Blue">
+                                <label for="color-blue">
+                                    <span class="color-circle blue"></span>
+                                    <span class="color-name">Blue</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="quantity-selector">
+                        <h3>Quantity</h3>
+                        <div class="quantity-control">
+                            <button class="quantity-btn decrease" id="decreaseQuantity">-</button>
+                            <input type="text" id="quantity" value="1" readonly placeholder="H">
+                            <button class="quantity-btn increase" id="increaseQuantity">+</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-actions">
+                    <button class="btn primary-btn" id="addToCartBtn">
+                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                    </button>
+                    <button class="btn secondary-btn">
+                        <i class="far fa-heart"></i> Add to Wishlist
+                    </button>
+                </div>
+                
+                <div class="product-features">
+                    <h3>Features</h3>
+                    <ul>
+                        <li>Active Noise Cancellation</li>
+                        <li>30-hour battery life</li>
+                        <li>Bluetooth 5.0 connectivity</li>
+                        <li>Premium comfort ear cushions</li>
+                        <li>Built-in microphone for calls</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews Section -->
+        <section class="reviews-section">
+            <h2 class="section-title">Customer Reviews</h2>
+            <div class="reviews-container">
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-info">
+                            <h4>Alex Johnson</h4>
+                            <p class="review-date">May 15, 2023</p>
+                        </div>
+                        <div class="review-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="review-text">These headphones are amazing! The sound quality is exceptional and the noise cancellation works perfectly. Battery life is impressive too.</p>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-info">
+                            <h4>Sarah Miller</h4>
+                            <p class="review-date">April 28, 2023</p>
+                        </div>
+                        <div class="review-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="review-text">Very comfortable and great sound. The only downside is that they're a bit bulky for travel, but overall I'm very satisfied.</p>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-info">
+                            <h4>Kunal</h4>
+                            <p class="review-date">June 2, 2023</p>
+                        </div>
+                        <div class="review-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="review-text">Best headphones I've ever owned. The noise cancellation is perfect for my daily commute on the subway.</p>
+                </div>
+            </div>
+            <div class="view-all-container">
+                <button class="btn outline-btn">View All Reviews</button>
+            </div>
+        </section>
+
+        <!-- Related Products -->
+        <section class="related-products">
+            <h2 class="section-title">You May Also Like</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="img/6.jpg" alt="Wireless Earbuds">
+                        <div class="quick-view">
+                            <button class="btn small-btn">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">Wireless Earbuds</h3>
+                        <div class="product-rating small">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span>(86)</span>
+                        </div>
+                        <div class="product-card-price">
+                            <span class="price">Rs 89.99</span>
+                            <button class="btn text-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="img/7.jpg" alt="Bluetooth Speaker">
+                        <div class="quick-view">
+                            <button class="btn small-btn">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">Bluetooth Speaker</h3>
+                        <div class="product-rating small">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span>(92)</span>
+                        </div>
+                        <div class="product-card-price">
+                            <span class="price">Rs 129.99</span>
+                            <button class="btn text-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="img/5.jpg" alt="Noise-Cancelling Headphones">
+                        <div class="quick-view">
+                            <button class="btn small-btn">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">Noise-Cancelling Headphones</h3>
+                        <div class="product-rating small">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span>(78)</span>
+                        </div>
+                        <div class="product-card-price">
+                            <span class="price">Rs 179.99</span>
+                            <button class="btn text-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="img/8.jpg" alt="Gaming Headset">
+                        <div class="quick-view">
+                            <button class="btn small-btn">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">Gaming Headset</h3>
+                        <div class="product-rating small">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span>(65)</span>
+                        </div>
+                        <div class="product-card-price">
+                            <span class="price">Rs 149.99</span>
+                            <button class="btn text-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column company-info">
+                    <h3 class="footer-title">SoundStore</h3>
+                    <p>Providing high-quality audio products since 2010. We're passionate about delivering the best sound experience to our customers.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="H"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link" title="H"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link" title="H"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link" title="H"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column quick-links">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column customer-service">
+                    <h3 class="footer-title">Customer Service</h3>
+                    <ul>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="shipping.html">Shipping & Returns</a></li>
+                        <li><a href="warranty.html">Warranty</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column newsletter">
+                    <h3 class="footer-title">Newsletter</h3>
+                    <p>Subscribe to our newsletter for the latest products and exclusive offers.</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Your email" class="newsletter-input">
+                        <button class="btn primary-btn newsletter-btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+91 9226XXX845</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>support@soundstore.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Nagpur, Maharashtra</span>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; <span id="currentYear"></span> SoundStore. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
